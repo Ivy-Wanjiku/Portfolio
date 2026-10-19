@@ -1,0 +1,137 @@
+import type { Project, SkillGroup } from "@/types";
+
+export const siteConfig = {
+  name: "Ivy Wanjiku",
+  title: "Backend-Focused Software Developer",
+  description:
+    "Ivy Wanjiku is a backend-focused software developer in Kenya building production systems, APIs, data pipelines, and full-stack digital products.",
+  url: "https://ivy-wanjiku.example.com",
+  email: "wanjiruwanjikuivy@gmail.com",
+  github: "https://github.com/Ivy-Wanjiku",
+  linkedin: "https://www.linkedin.com/in/ivy-wanjiku-43345b298/",
+  cv: "/ivy-wanjiku-cv.pdf",
+};
+
+export const projects: Project[] = [
+  {
+    slug: "adverts-explorer",
+    title: "Adverts Explorer",
+    category: "Backend · AI · Data Engineering",
+    description: "A large-scale advertising intelligence platform built to organize, process, search, and analyze advertising datasets from multiple sources.",
+    problem: "Advertising research becomes slow and fragmented when media, copy, brand information, and campaign patterns live across large, inconsistent datasets.",
+    role: "Backend, data engineering, and AI pipeline development across APIs, dataset processing, computer vision, search, and asynchronous tasks.",
+    built: "A searchable intelligence system combining structured data pipelines, OCR, CLIP embeddings, YOLOv8, brand normalization, deduplication, semantic search, and AI-assisted creative tools.",
+    approach: "Django and FastAPI support backend workflows, PostgreSQL stores normalized advertising data, and Celery handles background processing. Computer vision and embedding pipelines enrich media for search and analysis.",
+    technologies: ["Django", "FastAPI", "PostgreSQL", "OCR", "CLIP embeddings", "YOLOv8", "Celery", "Docker"],
+    features: ["Large advertising dataset processing", "OCR and computer vision workflows", "CLIP embedding and semantic search", "Brand normalization and deduplication", "Data extraction and transformation pipelines", "AI-assisted creative tools", "Docker and Celery workflows"],
+    challenges: ["Structuring, cleaning, and deduplicating advertising data collected from multiple sources."],
+    solutions: ["Built data processing workflows for normalization, deduplication, enrichment, and searchable storage."],
+    learnings: "[Placeholder — add Ivy’s own reflection on what she learned.]",
+    links: {},
+    accent: "ink",
+  },
+  {
+    slug: "lifeshine",
+    title: "LifeShine",
+    category: "Full-Stack Healthcare Platform",
+    description: "An end-to-end healthcare platform for managing services, patient-related operations, administration, and role-based workflows.",
+    problem: "Home healthcare operations needed one structured digital system for service information, administration, patient-related processes, and training workflows.",
+    role: "Sole developer responsible for building the platform end to end.",
+    built: "A React interface, Django REST Framework backend, PostgreSQL database, role-based access, administrative workflows, and a production VPS deployment.",
+    approach: "Built the system as a full-stack product with API-driven frontend and backend integration, structured access control, database-backed workflows, and production deployment.",
+    technologies: ["Django REST Framework", "React", "Vite", "PostgreSQL", "REST APIs", "VPS", "Ubuntu", "Nginx"],
+    features: ["Role-based access", "Healthcare service management", "Patient-related workflows", "Administrative dashboard", "Training and school functionality", "VPS production deployment"],
+    challenges: ["Building and deploying a multi-workflow healthcare platform as the sole developer."],
+    solutions: ["Delivered the frontend, backend APIs, data layer, access control, administration tools, and VPS deployment as one integrated system."],
+    learnings: "[Placeholder — add Ivy’s own reflection on what she learned.]",
+    links: {},
+    accent: "wine",
+  },
+  {
+    slug: "fanikisha",
+    title: "Fanikisha",
+    category: "Fintech · Full-Stack Platform",
+    description: "A dairy farmer loan portal that replaces a paper-based loan application process with authenticated digital workflows.",
+    problem: "A paper-based loan application process makes submission, record keeping, and workflow tracking difficult for dairy farmers and administrators.",
+    role: "Full-stack development across the authenticated loan workflow, backend APIs, and frontend integration.",
+    built: "A database-backed portal where users can authenticate, complete a digital loan application, and move information through a structured application workflow.",
+    approach: "Django REST Framework provides authentication, business logic, and APIs, while Next.js delivers the user-facing application and integrates with the backend workflow.",
+    technologies: ["Django REST Framework", "Next.js", "Authentication", "REST APIs", "Database workflows"],
+    features: ["Authenticated user access", "Digital loan application workflow", "Backend APIs and business logic", "Database-backed records", "Frontend and backend integration"],
+    challenges: ["Translating a paper-based application process into a clear, authenticated digital workflow."],
+    solutions: ["Structured the process around API-backed application stages, authentication, and persistent database records."],
+    learnings: "[Placeholder — add Ivy’s own reflection on what she learned.]",
+    links: { live: "https://fanikisha-nextjs.vercel.app/" },
+    accent: "sage",
+  },
+  {
+    slug: "reversetaka",
+    title: "ReverseTaka",
+    category: "Kotlin · Android · Sustainability",
+    description: "A native Android application connecting informal artisans with recycling companies to trade non-recyclable clothing.",
+    problem: "Informal artisans and recycling companies need a more structured way to connect, manage clothing-related exchanges, and maintain digital records.",
+    role: "Native Android application development using Kotlin.",
+    built: "A Kotlin Android application with recycler-based interfaces, dashboard functionality, and digital record-keeping workflows.",
+    approach: "Built as a native Android experience using ViewBinding for interface access and RecyclerView for efficient, structured lists.",
+    technologies: ["Kotlin", "Android", "RecyclerView", "ViewBinding"],
+    features: ["Native Android interface", "RecyclerView-based screens", "Dashboard functionality", "Digital record keeping", "Sustainability-focused trading workflow"],
+    challenges: ["Connecting a sustainability-focused exchange workflow to clear mobile screens and records."],
+    solutions: ["Used native Android patterns to organize dashboards, repeatable lists, and digital workflow records."],
+    learnings: "[Placeholder — add Ivy’s own reflection on what she learned.]",
+    links: {},
+    accent: "clay",
+  },
+  {
+    slug: "youth-on-purpose",
+    title: "Youth on Purpose",
+    category: "Frontend · Web Development",
+    description: "A modern youth-focused platform for a mentorship and empowerment initiative centered on spiritual growth, digital skills, soft skills, and mentorship.",
+    problem: "The initiative needed a clear digital presence that could explain its programs to young people and supporters.",
+    role: "[Placeholder — add Ivy’s confirmed role and responsibilities for this project.]",
+    built: "A responsive, content-led experience with clear program presentation and a modern youth-oriented interface.",
+    approach: "[Placeholder — add Ivy’s confirmed development approach for this project.]",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+    features: ["Responsive interface", "Clear program presentation", "Modern youth-oriented design", "Deployment-ready architecture"],
+    challenges: ["[Placeholder — add a confirmed technical or design challenge.]"],
+    solutions: ["[Placeholder — add the confirmed solution and Ivy’s contribution.]"],
+    learnings: "[Placeholder — add Ivy’s own reflection on what she learned.]",
+    links: { live: "https://youths-on-purpose.vercel.app/" },
+    accent: "clay",
+  },
+  {
+    slug: "sabilabs",
+    title: "SabiLabs Website Redesign",
+    category: "Frontend · UX · Corporate Web",
+    description: "Development and redesign work for a technology company website, focused on typography, consistency, responsive layouts, information architecture, and SEO.",
+    problem: "The company’s capabilities, industries, and project work needed a more consistent and discoverable presentation across devices and search engines.",
+    role: "Development and redesign work for SabiLabs. [Placeholder — add Ivy’s confirmed responsibilities.]",
+    built: "A responsive corporate experience with a consistent design system, clearer information architecture, and a stronger technical SEO foundation.",
+    approach: "[Placeholder — add Ivy’s confirmed development approach for this project.]",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "SEO"],
+    features: ["Responsive redesign", "Improved typography", "Consistent design system", "Metadata and SEO improvements", "Sitemap and robots configuration", "Structured data"],
+    challenges: ["[Placeholder — add a confirmed technical or design challenge.]"],
+    solutions: ["[Placeholder — add the confirmed solution and Ivy’s contribution.]"],
+    learnings: "[Placeholder — add Ivy’s own reflection on what she learned.]",
+    links: { live: "https://www.sabilabs.co.ke/" },
+    accent: "sage",
+  },
+];
+
+const projectBySlug = (slug: string) => {
+  const project = projects.find((item) => item.slug === slug);
+  if (!project) throw new Error(`Unknown project slug: ${slug}`);
+  return project;
+};
+
+export const featuredProjects = ["adverts-explorer", "lifeshine", "reversetaka", "fanikisha"].map(projectBySlug);
+export const moreProjects = ["sabilabs", "youth-on-purpose"].map(projectBySlug);
+
+export const skillGroups: SkillGroup[] = [
+  { title: "Backend Development", primary: ["Python", "Django", "Django REST Framework"], supporting: ["REST APIs", "Authentication", "Business logic", "Django ORM"] },
+  { title: "Data Engineering", primary: ["SQL", "ETL", "Data pipelines"], supporting: ["Data cleaning", "Data normalization", "Deduplication", "Large dataset processing"] },
+  { title: "Databases", primary: ["PostgreSQL", "MySQL"], supporting: ["SQL"] },
+  { title: "Frontend", primary: ["React", "Next.js", "TypeScript", "Tailwind CSS"], supporting: ["JavaScript", "HTML", "CSS"] },
+  { title: "Mobile Development", primary: ["Kotlin", "Android"], supporting: ["RecyclerView", "ViewBinding", "Native Android"] },
+  { title: "DevOps & Production", primary: ["Git", "Docker", "Celery"], supporting: ["GitHub", "CI/CD", "Linux", "Ubuntu", "Vercel", "Render", "VPS deployment", "Kubernetes hands-on exposure"] },
+  { title: "AI & Computer Vision", primary: ["YOLOv8", "OCR", "CLIP embeddings"], supporting: ["OpenCV", "Semantic search", "AI-assisted content generation"] },
+];

@@ -1,0 +1,171 @@
+Polish the existing portfolio without redesigning it.
+
+The current overall direction is good. Preserve:
+- Burgundy / cream / black palette
+- Current typography style
+- Editorial layout
+- Dark Experience section
+- Existing project screenshot treatment
+- Current navbar order
+- Existing hero portrait
+
+Make the following refinements:
+
+HERO
+
+Remove or replace the small decorative text:
+
+"Full-stack thinking.
+Production-minded execution."
+
+Preferred replacement:
+
+Backend · Data · Mobile · Full-stack
+
+Keep this subtle.
+
+Do not add more decorative text.
+
+ABOUT
+
+Reduce the body copy size slightly.
+
+The About section currently feels too large and vertically stretched.
+
+Improve:
+- line-height
+- paragraph width
+- spacing between paragraphs
+
+Keep the large heading.
+
+Do not compress the section too aggressively.
+
+EXPERIENCE
+
+Keep the dark experience section.
+
+Keep headline:
+
+"Engineering systems that work in production."
+
+Ensure the current Junior Software Developer role has more visual importance than the internship.
+
+The current role should contain the richer contribution areas:
+- Backend & Platform Engineering
+- Data & Document Pipelines
+- AI & Document Intelligence
+- Production & Delivery
+
+Use a clean editorial two-column or structured text layout.
+
+Do not turn these into large cards.
+
+Keep the internship simpler.
+
+WORK
+
+Keep project screenshots in their original brand colors.
+
+Do not recolor screenshots to burgundy.
+
+Preserve the browser-style project image wrapper.
+
+Keep project structure:
+
+- Category
+- Project title
+- Description
+- The problem
+- What I built
+- Technology stack
+- Screenshot
+- Project / case study link
+
+Adverts Explorer should remain one of the strongest featured projects.
+
+Keep:
+- LifeShine
+- ReverseTaka
+- Fanikisha
+- SabiLabs
+- Youth on Purpose
+
+Allow each project's screenshot to preserve its own design identity.
+
+SKILLS
+
+Redesign the Skills section slightly.
+
+The current section contains too many pill-shaped tags and feels like a technology database.
+
+Keep the existing categories:
+
+- Backend Development
+- Data Engineering
+- Databases
+- Frontend
+- Mobile Development
+- DevOps & Production
+- AI & Computer Vision
+
+Reduce the number of pills.
+
+Use stronger typography and grouped text.
+
+Example:
+
+BACKEND DEVELOPMENT
+
+Python · Django · Django REST Framework
+
+REST APIs
+Authentication
+Business Logic
+Django ORM
+
+Only use pills for major technologies where useful.
+
+Use plain text for supporting skills.
+
+Keep the section clean and scannable.
+
+Do NOT use:
+- skill percentages
+- progress bars
+- star ratings
+
+DOWNLOAD CV
+
+Verify that the "Download CV" button points to the actual current CV file.
+
+It should download the CV rather than navigate to an empty route.
+
+Use an appropriate filename such as:
+
+Ivy_Wanjiku_CV.pdf
+
+RESPONSIVENESS
+
+After these changes, check the following widths:
+
+320px
+375px
+430px
+768px
+1024px
+1280px
+1440px+
+
+Check specifically:
+- hero headline wrapping
+- portrait crop
+- About section typography
+- project screenshots
+- skills grid
+- navbar
+- experience layout
+
+Do not redesign working sections unnecessarily.
+
+The objective is refinement, not a new design.
